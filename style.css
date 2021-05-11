@@ -1,0 +1,46 @@
+.icon{
+    font-size: 25px;
+    margin: 5px;
+    color: white;
+}
+header{
+    background-color: rgba(33, 32, 28, 0.8);
+    padding:15px;
+}
+@media (max-width: 575px) {
+    .logo-container{
+        text-align: center;
+    }
+    .input-div{
+        display: none;
+    }
+    .fa-heart{
+        display: none;
+    }
+    .row{
+        position: relative;
+    }
+    .fa-shopping-cart{
+        position: absolute;
+        top: 0px;
+        right: 0px;
+    }
+    .bar-icon{
+        position: absolute;
+        left: 0px;
+    }
+}
+@media (min-width:576px){
+.btn-search{
+    background-color: rgba(201, 108, 46,0.8);
+    color: white;
+}
+
+.header-right{
+    text-align: right;
+} 
+.fa-bars{
+    display:none;
+}
+
+}
